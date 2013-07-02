@@ -1,0 +1,55 @@
+*, html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #DEDEDE;
+    font-size: 14px;
+    line-height: 18px;
+	background-color: #111111;
+	margin: 0;
+	padding: 0;
+}
+
+/* Template styles */
+#siteContainer {
+	width: 90%;
+	margin: 0 auto;
+	min-height: 500px;
+	background-color: #212121;
+}
+
+#mainContent {
+	padding: 20px;
+}
+
+/* Global Styles */
+a {
+	color: #ABABAB;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+/* Global Classes */
+a.button {
+	border: 1px solid #555555;
+	background-color: #111111;
+	padding: 5px 10px;
+	display: inline-block;
+}
+a.button:hover {
+	text-decoration: none;
+	background-color: #000000;
+	color: #EFEFEF;
+	border: 1px solid #EFEFEF;
+}
+.tooltip {
+	position: relative;
+}
+.tipHolder {
+	padding: 10px;
+	position: absolute;
+	background-color: #ffffff;
+	color: #111111;
+}
