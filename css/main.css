@@ -1,9 +1,10 @@
+/* GLOBAL STYLES */
 *, html {
 	margin: 0;
 	padding: 0;
 }
 body {
-	color: #DEDEDE;
+	color: #EDEDED;
     font-size: 14px;
     line-height: 18px;
 	background-color: #111111;
@@ -13,8 +14,19 @@ body {
 	font-weight: 300;
 	background: url(/img/bgs/bg-artboard.jpg) repeat 0 0;
 }
+a {
+	color: #EDEDED;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
 
-/* Template styles */
+/* TEMPLATE STYLES */
 #siteContainer {
 	width: 80%;
 	margin: 60px auto 0 auto;	
@@ -22,6 +34,8 @@ body {
 	-webkit-box-shadow: 3px 1px 10px 0px #333333;
     box-shadow: 3px 1px 10px 0px #333333;
 	position: relative;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 #header {
 	
@@ -33,7 +47,9 @@ body {
 }
 #mainContent {
 	padding: 20px;
-	min-height: 400px;
+	min-height: 600px;
+	position: relative;
+	display: none;
 }
 #footer {
 	padding: 10px;
@@ -41,23 +57,58 @@ body {
 	font-size: .9em;
 }
 
-/* navigation */
+/* NAVIGATION STYLES */
 #mainNav li { display: inline; }
 
-/* Global Styles */
-a {
-	color: #ABABAB;
+/* HOME */
+#homeNav a {
+	text-indent: -9999px;
+	display: block;
+	font-size: 2em;
+	font-weight: 700;
+}
+#homeNav a:hover {
+	text-indent: 0;
 	text-decoration: none;
 }
-a:hover {
-	text-decoration: underline;
+#portfolio a {
+	width: 33%;
+	height: 38%;
+	position: absolute;
+	top: 37%;
+	right: 26%;
+	background: #FF0000;
+	z-index: 3;
 }
-img {
-    height: auto;
-    max-width: 100%;
+#projects a {
+	width: 16%;
+	height: 36%;
+	position: absolute;
+	top: 63%;
+	left: 32%;
+	background: #00FF00;
+	z-index: 4;
+}
+#contact a {
+	width: 11%;
+	height: 36%;
+	position: absolute;
+	top: 18%;
+	right: 22%;
+	background: #0000FF;
+	z-index: 3;
+}
+#about a {
+	width: 23%;
+	height: 25%;
+	position: absolute;
+	top: 25%;
+	left: 22%;
+	background: #00FFFF;
+	z-index: 1;
 }
 
-/* Global Classes */
+/* GLOBAL CLASSES */
 a.button {
 	border: 1px solid #555555;
 	background-color: #111111;
@@ -76,6 +127,10 @@ a.button:hover {
 }
 .nav-list li {
 	display: inline;
+}
+.rounded {
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 .clear:after { 
 	content: ''; 
