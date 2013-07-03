@@ -1,0 +1,46 @@
+<NotepadPlus>
+    <Project name="dwi-site">
+        <Folder name="about">
+            <File name="about\index.php" />
+        </Folder>
+        <Folder name="contact">
+            <File name="contact\index.php" />
+        </Folder>
+        <Folder name="css">
+            <File name="css\main.css" />
+            <File name="css\normalize.min.css" />
+        </Folder>
+        <Folder name="img">
+            <Folder name="bgs">
+                <File name="img\bgs\bg-artboard.jpg" />
+            </Folder>
+            <Folder name="logos-icons">
+                <File name="img\logos-icons\logo-drenched-with-ink.png" />
+            </Folder>
+        </Folder>
+        <Folder name="js">
+            <Folder name="vendor">
+                <File name="js\vendor\html5shiv.js" />
+                <File name="js\vendor\jquery-1.9.1.min.js" />
+            </Folder>
+            <File name="js\main.js" />
+        </Folder>
+        <Folder name="portfolio">
+            <File name="portfolio\index.php" />
+        </Folder>
+        <Folder name="projects">
+            <File name="projects\index.php" />
+        </Folder>
+        <File name="404.php" />
+        <File name="favicon.ico" />
+        <File name="favicon.png" />
+        <File name="index.php" />
+        <File name="README.md" />
+        <File name="includes\footer.php" />
+        <File name="includes\header.php" />
+        <Folder name="includes">
+            <File name="includes\footer.php" />
+            <File name="includes\header.php" />
+        </Folder>
+    </Project>
+</NotepadPlus>

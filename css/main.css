@@ -9,19 +9,40 @@ body {
 	background-color: #111111;
 	margin: 0;
 	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	background: url(/img/bgs/bg-artboard.jpg) repeat 0 0;
 }
 
 /* Template styles */
 #siteContainer {
-	width: 90%;
-	margin: 0 auto;
-	min-height: 500px;
-	background-color: #212121;
+	width: 80%;
+	margin: 60px auto 0 auto;	
+	background-color: #121212;
+	-webkit-box-shadow: 3px 1px 10px 0px #333333;
+    box-shadow: 3px 1px 10px 0px #333333;
+	position: relative;
 }
-
+#header {
+	
+}
+#logoDwi {
+	width: 17%;
+	float: left;
+	margin: -45px 0 0 5px;
+}
 #mainContent {
 	padding: 20px;
+	min-height: 400px;
 }
+#footer {
+	padding: 10px;
+	text-align: center;
+	font-size: .9em;
+}
+
+/* navigation */
+#mainNav li { display: inline; }
 
 /* Global Styles */
 a {
@@ -31,6 +52,11 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 /* Global Classes */
 a.button {
 	border: 1px solid #555555;
@@ -44,12 +70,15 @@ a.button:hover {
 	color: #EFEFEF;
 	border: 1px solid #EFEFEF;
 }
-.tooltip {
-	position: relative;
+.nav-list {
+	list-style-type: none;
+	padding: 0;
 }
-.tipHolder {
-	padding: 10px;
-	position: absolute;
-	background-color: #ffffff;
-	color: #111111;
+.nav-list li {
+	display: inline;
+}
+.clear:after { 
+	content: ''; 
+	display: table; 
+	clear: both;
 }
