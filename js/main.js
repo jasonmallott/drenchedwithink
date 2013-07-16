@@ -1,7 +1,7 @@
 $(function(){
 
 	Site.init();
-
+	Site.getWidth();
 });
 
 var Site = {
@@ -13,6 +13,15 @@ var Site = {
 			console.log('cool');
 			e.preventDefault();
 		});
+		
+		$(window).on('resize', function(){
+			Site.getWidth();
+		});
 	},
+	
+	getWidth: function(){
+		var width= $(window).width();
+		$('#width').html(width);
+	}
 	
 };

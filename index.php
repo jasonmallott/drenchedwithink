@@ -1,13 +1,7 @@
-<?php require('/includes/header.php'); ?>
+<?php require('/includes/header-home.php'); ?>
 
-<div id="siteContainer" class="home">
-	<div id="header">
-		<div id="logoDwi">
-			<a href="/"><img src="/img/logos-icons/logo-drenched-with-ink-1.png" alt="Drenched with Ink Studios" /></a>
-		</div>
-	</div>
-	<div id="mainContent">
-		<div id="homeNav">
+	<div id="mainContent" class="home">
+		<div id="homeNav" class="clear">
 			<div id="portfolio">
 				<a href="/portfolio">Portfolio</a>
 			</div>

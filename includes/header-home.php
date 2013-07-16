@@ -31,11 +31,4 @@
 		<div id="logoDwi">
 			<a href="/"><img src="/img/logos-icons/logo-drenched-with-ink-1.png" alt="Drenched with Ink Studios" /></a>
 		</div>
-		<ul class="nav-list clear" id="mainNav">
-			<li><a href="/">Home</a> |</li>
-			<li><a href="/portfolio">Portfolio</a> |</li>
-			<li><a href="/projects">Projects</a> |</li>
-			<li><a href="/contact">Contact</a> |</li>
-			<li><a href="/about">About</a></li>
-		</ul>
 	</div>

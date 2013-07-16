@@ -40,6 +40,12 @@ img {
 #header {
 	
 }
+#mainNav {
+	float: left;
+	padding: 20px;
+	width: 70%;
+	margin: 0 auto;
+}
 #logoDwi {
 	width: 17%;
 	float: left;
@@ -136,4 +142,38 @@ a.button:hover {
 	content: ''; 
 	display: table; 
 	clear: both;
+}
+
+
+
+
+/** MEDIA QUERIES**/
+@media screen and (max-width: 980px) {
+
+}
+
+
+@media screen and (max-width: 700px) {
+	#siteContainer {
+		width: 90%;
+	}
+	#logoDwi {
+		width: 20%;
+		float: left;
+		margin: -30px 0 0 5px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	body { background: none; }	
+	#siteContainer {
+		width: 100%;
+		margin: 0;	
+		background-color: #121212;
+		-webkit-box-shadow: 0;
+		box-shadow: 0;
+		position: static;
+		-moz-border-radius: 0;
+		border-radius: 0;
+	}
 }
