@@ -20,7 +20,7 @@ var Site = {
 	},
 	
 	getWidth: function(){
-		var width= $(window).width();
+		var width= $('#siteContainer').outerWidth();
 		$('#width').html(width);
 	}
 	

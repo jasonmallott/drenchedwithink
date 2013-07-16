@@ -28,7 +28,7 @@ img {
 
 /* TEMPLATE STYLES */
 #siteContainer {
-	width: 80%;
+	width: 90%;
 	margin: 60px auto 0 auto;	
 	background-color: #121212;
 	-webkit-box-shadow: 3px 1px 10px 0px #333333;
@@ -52,7 +52,6 @@ img {
 	margin: -45px 0 0 5px;
 }
 #mainContent {
-	padding: 20px;
 	min-height: 600px;
 	position: relative;
 	display: none;
@@ -148,12 +147,14 @@ a.button:hover {
 
 
 /** MEDIA QUERIES**/
-@media screen and (max-width: 980px) {
-
+@media screen and (min-width: 1224px) {
+	#siteContainer {
+		width: 960px;
+	}
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 600px) and (max-width: 1024px){
 	#siteContainer {
 		width: 90%;
 	}
@@ -164,7 +165,7 @@ a.button:hover {
 	}
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 568px) {
 	body { background: none; }	
 	#siteContainer {
 		width: 100%;
@@ -175,5 +176,10 @@ a.button:hover {
 		position: static;
 		-moz-border-radius: 0;
 		border-radius: 0;
+	}
+	#logoDwi {
+		margin: 0;
+		padding: 10px 0 0 10px;
+		width: 25%;
 	}
 }
