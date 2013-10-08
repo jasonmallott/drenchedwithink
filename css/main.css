@@ -143,6 +143,18 @@ a.button:hover {
 	clear: both;
 }
 
+/** ANIMATIONS **/
+#logoDwi {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+  from { margin-top: -400px; }
+
+  to { margin-top: -45px; }
+}
+
 
 
 
